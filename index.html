@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign in & Sign up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        
+        <div class="signin-signup">
+
+          
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class=""></i>
+              <input type="Email to" placeholder="Email to" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="Your Email" placeholder="Your Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-Phone"></i>
+              <input type="Phone Number" placeholder="Phone Number" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="Message" placeholder="Message" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Sign up</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+            
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+              ex ratione. Aliquid!
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up 
+            </button>
+			<ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll btn btn-primary btn-lg" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About Us</a>
+                    </li>
+                </ul>
+          </div>
+          <img src="undraw_uploading_go67.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              laboriosam ad deleniti.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+			
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
+        </div>
+      </div>
+	  
+	 <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        <div class="modal-body">
+        <img src="//placehold.it/1200x700/222?text=..." id="galleryImage" class="img-responsive" />
+        <p>
+           <br/>
+           <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        </p>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-body">
+        <h2 class="text-center">About Us</h2>
+        <h5 class="text-center">
+           Our attitude toward life determines life's attitude towards us.
+
+        </h5>
+        <p class="text-justify">
+           People tend to think that "About Us" pages have to sound formal to gain credibility and trust. But most people find it easier to trust real human beings, rather than a description that sounds like it came from an automaton. Trying to sound too professional on your "About Us" page results in stiff, “safe” copy and design -- the perfect way to make sure your company blends in with the masses.</br></p>
+
+<p>Instead, Eight Hour Day showcases the people behind the company and humanizes its brand. Introducing the founders by name and featuring the photos of them on the "About Us" page drives home the point that Nathan and Katie are -- as they so astutely put it -- "two individuals with a passion for creativity -- creativity makes us happy."
+        </p>
+       
+        <br/>
+        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK </button>
+<p class="text-center">
+<!--<a href="#aboutModal1">Terms & Condition apply </a>-->
+<!--<button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-lg btn-block">Terms & Condition <i class="ion-android-arrow-forward"></i></button>-->
+<a href="" data-toggle="modal" data-target="#alertModal">Terms & Condition <i class="ion-android-arrow-forward"></i></a>
+
+<div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<h2 class="text-center">Terms & Condition</h2>
+        		<p class="text-center"><h3>1. Terms</h3>
+
+<p>This website, <a href="https://bootstrapious.com">https://bootstrapious.com</a>, is operatewd by Ondrej Svestka and Bootstrapious. Throughout the site, the terms &ldquo;we&rdquo;, &ldquo;us&rdquo; and &ldquo;our&rdquo; refer to Ondrej Svestka and Bootstrapious. We offer&nbsp;this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.</p>
+
+<p>By visiting our site and/ or purchasing something from us, you engage in our &ldquo;Service&rdquo; and agree to be bound by the following terms and conditions (&ldquo;Terms of Service&rdquo;, &ldquo;Terms&rdquo;), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply &nbsp;to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/ or contributors of content.</p>
+
+<p>Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do&nbsp;not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.</p>
+
+<p>The materials contained in this website are protected by applicable copyright and trademark law.</p>
+
+<h3>2. Use License - Templates</h3>
+
+<ol type="a">
+	<li>When you <strong>download a free template</strong>, you acquire the right to use that item; you&#39;re not actually acquiring the item itself.&nbsp;Items are subject to specific terms of use, and these terms are the &lsquo;license&rsquo; that we set on Bootstrapious.</li>
+	<li id="itemprice">When you&nbsp;<strong>buy&nbsp;a premium&nbsp;item</strong> on Bootstrapious, you acquire the right to use that item; you&#39;re not actually acquiring the item itself. What you get includes a license directly from the author to use that item. Items are subject to specific terms of use, and these terms are the &lsquo;license&rsquo; that we set on Bootstrapious. This license also applies to you if you download an item that someone else has bought for you. Different license types are available for you to choose when you have selected an item. You&rsquo;ll need to think about the way you want to use the item so that you can pick the right license to allow that use. It&rsquo;s your responsibility to choose the correct license.</li>
+	<li>This license shall automatically terminate if you violate any of these restrictions and may be terminated by Bootstrapious at any time.</li>
+	<li>Our order process is conducted by our online reseller Paddle.com. Paddle.com is the Merchant of Record for all our orders. Paddle provides all customer service inquiries and handles returns.</li>
+</ol>
+
+<h3>3. Use License - Blog articles and&nbsp;tutorials</h3>
+
+<ol type="a">
+	<li>Blog articles and&nbsp;tutorials are released under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC license</a>.&nbsp;The code included in these articles and tutorials is licensed under <a href="https://choosealicense.com/licenses/mit/">MIT license</a>.</li>
+	<li>This license shall automatically terminate if you violate any of these restrictions and may be terminated by Bootstrapious at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.</li>
+</ol>
+
+<h3 id="intellectual-property">4. Intellectual Property</h3>
+
+<p>We own all the&nbsp;content that we have put on <a href="https://bootstrapious.com">https://bootstrapious.com</a> (unless otherwise stated and excluding content owned by others). This includes the design, compilation, and look and feel of the <a href="https://bootstrapious.com">https://bootstrapious.com</a>&nbsp;site, and copyright, trademarks, designs and other intellectual property on Bootstrapious. We own all the trademarks, logos, service marks and trade names on Bootstrapious (unless otherwise stated and excluding these things owned by others). You will not copy, distribute, modify or make derivative works of any of our Bootstrapious&#39; website&nbsp;content or use any of our intellectual property in any way not expressly stated in these terms.</p>
+
+<h3>5. Disclaimer</h3>
+
+<ol type="a">
+	<li>The materials on Bootstrapious&#39; website are provided on an &#39;as is&#39; basis. Bootstrapious makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</li>
+	<li>Further, Bootstrapious does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.</li>
+</ol>
+
+<h3>6. Limitations</h3>
+
+<p>In no event shall Bootstrapious or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Bootstrapious&#39; website, even if Bootstrapious or a Bootstrapious authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do&nbsp;not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.</p>
+
+<h3>7. Accuracy of materials</h3>
+
+<p>The materials appearing on Bootstrapious website could include technical, typographical, or photographic errors. Bootstrapious does not warrant that any of the materials on its website are accurate, complete or current. Bootstrapious may make changes to the materials contained on its website at any time without notice. However Bootstrapious does not make any commitment to update the materials.</p>
+
+<h3>8. Links</h3>
+
+<p>Bootstrapious has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Bootstrapious of the site. Use of any such linked website is at the user&#39;s own risk.</p>
+
+<h3>9. Modifications</h3>
+
+<p>Bootstrapious may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.</p>
+
+<h3>10. Governing Law</h3>
+
+<p>These terms and conditions are governed by and construed in accordance with the laws of Czech Republic and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
+
+<p>Version 1.2&nbsp;- Effective date: April 23, 2019.</p>
+</p>
+        		
+        		<br/>
+        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+        	</div>
+        </div>
+        </div>
+    </div>
+
+        </div>
+        </div>
+        </div>
+    </div>
+ 
+ 
+ 
+    </div>
+
+    
+
+    <script src="app.js"></script>
+	
+  </body>
+</html>
